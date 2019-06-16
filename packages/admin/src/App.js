@@ -5,7 +5,7 @@ import jsonServerProvider from './dataProvider';
 const dataProvider = jsonServerProvider('http://localhost:3001');
 const App = () => (
   <Admin dataProvider={dataProvider}>
-    <Resource name="posts" list={ListGuesser} />
+    <Resource name="leagues" list={ListGuesser} />
   </Admin>
 );
 

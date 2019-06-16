@@ -1,9 +1,184 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "leagues": [
+    {
+      "id": 1,
+      "title": "Roller Derby Caen"
+    },
+    {
+      "id": 2,
+      "title": "Roller Derby Rennes"
+    },
+    {
+      "id": 3,
+      "title": "Roller Derby Nancy"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "teams": [
+    {
+      "id": 1,
+      "title": "The Leopard Avengers",
+      "leagueId": 1
+    },
+    {
+      "id": 3,
+      "title": "Les Déferlantes ",
+      "leagueId": 2
+    },
+    {
+      "id": 4,
+      "title": "La Mortal Condate",
+      "leagueId": 2
+    },
+    {
+      "id": 5,
+      "title": "Les Wheel Spirit",
+      "leagueId": 3
+    }
   ],
-  "profile": { "name": "typicode" }
+  "players": [
+    {
+      "id": 1,
+      "number": 1234,
+      "name": "FREDDIE COUGAR",
+      "teamId": 1
+    },
+    {
+      "id": 2,
+      "number": 999,
+      "name": "KALI KNOX",
+      "teamId": 1
+    },
+    {
+      "id": 3,
+      "number": 934,
+      "name": "MOLDUE Q",
+      "teamId": 1
+    },
+    {
+      "id": 4,
+      "number": 474,
+      "name": "BRÜNO",
+      "teamId": 1
+    },
+    {
+      "id": 5,
+      "number": 221,
+      "name": "CHÈRE LOQUE",
+      "teamId": 1
+    },
+    {
+      "id": 6,
+      "number": 218,
+      "name": "ODD RAY OF LIGHT",
+      "teamId": 1
+    },
+    {
+      "id": 7,
+      "number": 211,
+      "name": "MO’S RIOT",
+      "teamId": 1
+    },
+    {
+      "id": 8,
+      "number": 105,
+      "name": "QUINN CARDINAL",
+      "teamId": 1
+    },
+    {
+      "id": 9,
+      "number": 100,
+      "name": "KLITORIOUS BASTERD",
+      "teamId": 1
+    },
+    {
+      "id": 10,
+      "number": 86,
+      "name": "LIZ TERROR",
+      "teamId": 1
+    },
+    {
+      "id": 11,
+      "number": 28,
+      "name": "BIZA RELLA",
+      "teamId": 1
+    },
+    {
+      "id": 12,
+      "number": 17,
+      "name": "BOOTY’FOOL",
+      "teamId": 1
+    },
+    {
+      "id": 13,
+      "number": 14,
+      "name": "ALITCHÉ",
+      "teamId": 1
+    },
+    {
+      "id": 14,
+      "number": 11,
+      "name": "PIMF MY RIDE",
+      "teamId": 1
+    },
+    {
+      "id": 15,
+      "number": 88,
+      "name": "ASSIST'ANA",
+      "teamId": 5
+    },
+    {
+      "id": 16,
+      "number": 47,
+      "name": "CALAMITY JULES",
+      "teamId": 5
+    },
+    {
+      "id": 17,
+      "number": 37,
+      "name": "POISON CANDY",
+      "teamId": 5
+    },
+    {
+      "id": 18,
+      "number": 26,
+      "name": "FOUG'ASS",
+      "teamId": 5
+    },
+    {
+      "id": 19,
+      "number": 23,
+      "name": "BLACK TABBATH",
+      "teamId": 5
+    },
+    {
+      "id": 20,
+      "number": 12,
+      "name": "CALL OF JUSTINE",
+      "teamId": 5
+    },
+    {
+      "id": 21,
+      "number": 77,
+      "name": "SUIKA POPPINS",
+      "teamId": 5
+    },
+    {
+      "id": 22,
+      "number": 25,
+      "name": "CRAZY GINGER",
+      "teamId": 5
+    },
+    {
+      "id": 23,
+      "number": 15,
+      "name": "GAZOLINE",
+      "teamId": 5
+    },
+    {
+      "id": 24,
+      "number": 404,
+      "name": "MEI MOGWAI",
+      "teamId": 5
+    }
+  ]
 }
