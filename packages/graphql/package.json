@@ -1,0 +1,10 @@
+{
+    "name": "graphql",
+    "version": "0.1.0",
+    "scripts": {
+        "start": "json-graphql-server db.js --p 3002"
+    },
+    "dependencies": {
+        "json-graphql-server": "2.1.3"
+    }
+}

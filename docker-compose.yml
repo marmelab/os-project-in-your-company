@@ -1,0 +1,39 @@
+version: '3'
+
+services:
+    admin:
+        image: node:12.4.0
+        volumes:
+            - .:/app
+        working_dir: "/app/packages/admin"
+        user: "${UID}:${GID}"
+        command: "yarn start"
+        ports:
+            - "3000:3000"
+    rest:
+        image: node:12.4.0
+        volumes:
+            - .:/app
+        working_dir: "/app/packages/rest"
+        user: "${UID}:${GID}"
+        command: "yarn start"
+        ports:
+            - "3001:3001"
+    graphql:
+        image: node:12.4.0
+        volumes:
+            - .:/app
+        working_dir: "/app/packages/graphql"
+        user: "${UID}:${GID}"
+        command: "yarn start"
+        ports:
+            - "3002:3002"
+    ra-demo:
+        image: node:12.4.0
+        volumes:
+            - .:/app
+        working_dir: "/app/packages/ra-demo"
+        user: "${UID}:${GID}"
+        command: "yarn start"
+        ports:
+            - "3003:3000"
