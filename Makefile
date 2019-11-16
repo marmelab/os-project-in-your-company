@@ -9,8 +9,7 @@ install: ## Install project's dependencies
 	docker-compose run --rm --no-deps ra-demo bash -ci ' \
 		yarn && \
 		cd ../rest && yarn && \
-		cd ../admin && yarn && \
-		cd ../graphql && yarn \
+		cd ../admin && yarn \
 	'
 
 start: ## Start project
