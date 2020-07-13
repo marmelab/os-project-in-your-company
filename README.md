@@ -1,4 +1,13 @@
 # Maintenir un projet open-source au sein de sa boite: l’exemple de react-admin
+<table>
+        <tr>
+            <td><img width="60" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/book.svg" alt="publication" /></td>
+            <td><strong>Archived Repository</strong><br />
+            The code of this repository was written to illustrate the Talk <a href="https://slides.com/alexisjanvier-1/os-project-in-your-company">"Maintenir un projet open-source au sein de sa boite: l’exemple de react-admin"</a><br />
+        <strong>This code is not intended to be used in production, and is not maintained.</strong>
+        </td>
+        </tr>
+</table>
 
  ![GitHub top language](https://img.shields.io/github/languages/top/marmelab/os-project-in-your-company.svg) ![GitHub contributors](https://img.shields.io/github/contributors/marmelab/os-project-in-your-company.svg) ![foss-starter-kit.svg](https://img.shields.io/github/license/marmelab/os-project-in-your-company.svg)
 
